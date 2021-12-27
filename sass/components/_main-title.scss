@@ -1,0 +1,12 @@
+.main-title {
+    @include font (28px, 1.17, 0.03em, 700);
+    margin-bottom: 30px;
+    color: $secondary-shade2-color;
+    text-align: center;
+
+    @media screen and (min-width:$desktop) {
+        @include font (36px, 1.16, 0.03em, bold);
+        margin-bottom: 50px;
+
+    }
+}

@@ -1,0 +1,21 @@
+.header {
+    border-bottom: 1px solid $line-color;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: $primary-color;
+}
+
+.header__container {
+    display: flex;
+    // @extend %flex-list;
+}
+
+.header__nav {
+    margin-left: 93px;
+}
+
+.header__wrapper {
+    margin-left: auto;
+}

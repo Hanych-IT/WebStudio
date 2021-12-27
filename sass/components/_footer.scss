@@ -1,0 +1,51 @@
+.footer {
+    background-color: $secondary-shade-color;
+    padding: 60px 0;
+    text-align: center;
+
+    @media screen and (min-width:$desktop) {
+        text-align: left;
+    }
+}
+
+.footer__container {
+
+    @media screen  and (min-width:$tablet) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    }
+
+    @media screen and (min-width:$desktop) {
+    justify-content: space-between;
+    }
+    
+}
+
+.footer__social {
+    @media screen and (max-width:767px) {
+    margin: 60px auto 0;
+    }
+}
+
+.footer__title {
+    @include font (14px, 1.14, 0.003em, bold);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: $primary-color;
+
+    @media screen and (min-width:$desktop) {
+    text-align: left;
+    }
+}
+
+.footer__subscribe {
+    margin-top: 60px;
+    
+    @media screen and (min-width:$desktop) {
+    margin-top: 0;  
+    }
+    
+
+}

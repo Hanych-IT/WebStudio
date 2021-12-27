@@ -1,0 +1,46 @@
+.works {
+    display: none;
+
+    @media screen and (min-width:$desktop) {
+        display: block;
+        padding: 47px 0 94px 0;
+    }
+    
+}
+
+.works-list {
+    display: flex;
+    // margin: -15px;
+}
+
+.works-list__item {
+    // flex-basis: calc((100% - 3 * 30px) / 3);
+    // margin: 15px;
+    position: relative;
+    align-items: center;
+
+    &:not(:last-child) {
+    margin-right: 30px;
+    }
+}
+
+.works-list__direction-wrapper {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    padding: 27px 0;
+    background: rgba($secondary-shade-color, 0.8);
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.works-list__direction {
+    @include font (14px, 1.14, 0.03em, bold);
+
+    text-transform: uppercase;
+
+    color: $primary-color;
+}

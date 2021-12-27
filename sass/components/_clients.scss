@@ -1,0 +1,44 @@
+.clients-list {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: -15px;
+}
+
+.clients-list__item {
+    margin: 15px;
+    flex-basis: calc((100% - 2 * 30px) / 2); 
+    
+    @media screen and (min-width:$tablet) {
+    flex-basis: calc((100% - 3 * 30px) / 3);
+    }
+    @media screen and (min-width:$desktop) {
+    flex-basis: calc((100% - 6 * 30px) / 6);
+    }
+    
+}
+
+.clients-list__link {
+    @extend %flex-list;
+    min-height: 92px;
+    @include border ($icon-color);
+    justify-content: center;
+
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: $icon-color;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        &:hover,
+        &:focus {
+        @include border ($accent-color);
+        color: $accent-color;
+    }
+}
+
+.clients-list__icon {
+    @include sizens (106px, 60px);
+
+    fill: currentColor;
+}
