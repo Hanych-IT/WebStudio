@@ -1,10 +1,6 @@
 .header {
     border-bottom: 1px solid $line-color;
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: $primary-color;
 }
 
 .header__container {
@@ -12,10 +8,6 @@
 }
 
 .header__nav {
-
-    @media screen and (min-width:$desktop) {
-        margin-left: 93px;
-    }
     
     @media screen and (max-width:767px) {
         display: none;

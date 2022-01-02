@@ -1,9 +1,19 @@
 .filter {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: -8px;
+
+    @media screen and (min-width:$tablet) {
     justify-content: center;
-    margin-bottom: 34px;
+    align-items: center;
+    }
 }
 
-.filter__item:not(:last-child) {
-    margin-right: 8px;
+.filter__item {
+    margin: 8px;
+    
+    &:not(:last-child) {
+    margin-right: 0px;  
+    }
 }
