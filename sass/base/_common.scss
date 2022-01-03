@@ -1,8 +1,8 @@
 body {
-    font-family: "Roboto", sans-serif;
+    font-family     : "Roboto", sans-serif;
     background-color: $primary-color;
-    color: $secondary-shade2-color;
-    margin: 0;
+    color           : $secondary-shade2-color;
+    margin          : 0;
 }
 
 .list {
@@ -24,7 +24,7 @@ h6 {
 }
 
 ul {
-    margin: 0;
+    margin : 0;
     padding: 0;
 }
 
@@ -33,27 +33,27 @@ button {
 }
 
 img {
-    display: block;
+    display  : block;
+    height   : auto;
     max-width: 100%;
-    height: auto;
 }
 
 .visually-hidden {
-    position: absolute;
+    position   : absolute;
     white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
+    width      : 1px;
+    height     : 1px;
+    overflow   : hidden;
+    border     : 0;
+    padding    : 0;
+    clip       : rect(0 0 0 0);
+    clip-path  : inset(50%);
+    margin     : -1px;
 }
 
 .is-hidden {
-    visibility: hidden;
-    opacity: 0;
+    visibility    : hidden;
+    opacity       : 0;
     pointer-events: none;
 }
 
@@ -61,7 +61,6 @@ img {
     padding: 60px 0;
 
     @media screen and (min-width:$desktop) {
-    padding: 94px 0;  
+        padding: 94px 0;
     }
 }
-

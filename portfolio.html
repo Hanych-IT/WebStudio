@@ -17,42 +17,44 @@
 
 <!-- Шапка -->
 
-    <header class="header">
-      <div class="container header__container">
-        <a href="./index.html" class="logo logo--primary link"> <span class="logo logo__web">Web</span>Studio</a>
-        <nav class="header__nav">
-          <ul class="nav-list list">
-            <li class="nav-list__item">
-              <a href="./index.html" class="nav-list__link link">Студия</a>
-            </li>
-            <li class="nav-list__item">
-              <a href="./portfolio.html" class="nav-list__link nav-list__link--current link">Портфолио</a>
-            </li>
-            <li class="nav-list__item">
-              <a href="" class="nav-list__link link">Контакты</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="header__wrapper">
-          <ul class="contacts-list list">
-            <li class="contacts-list__item">
-              <a href="mailto:info@devstudio.com" class="contacts-list__link link"
-                ><svg class="contacts-list__icon" width="16" height="12">
-                  <use href="./images/icons.svg#envelope"></use></svg
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="contacts-list__item">
-              <a href="tel:+380961111111" class="contacts-list__link link"
-                ><svg class="contacts-list__icon" width="10" height="16">
-                  <use href="./images/icons.svg#smartphone"></use></svg
-                >+38 096 111 11 11</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </header>
+<header class="header">
+  <div class="container header__container">
+    <a href="./index.html" class="logo logo--primary link"> <span class="logo logo__web">Web</span>Studio</a>
+
+    <button type="button" class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu"><svg width="24" height="16"><use href="./images/icons.svg#icon-menu" class="icon-menu"></use></svg></button>
+
+    <nav class="header__nav">
+      <ul class="nav-list list">
+        <li class="nav-list__item">
+          <a href="./index.html" class="nav-list__link link">Студия</a>
+        </li>
+        <li class="nav-list__item">
+          <a href="./portfolio.html" class="nav-list__link nav-list__link--current link">Портфолио</a>
+        </li>
+        <li class="nav-list__item">
+          <a href="" class="nav-list__link link">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__wrapper">
+      <ul class="contacts-list list">
+        <li class="contacts-list__item">
+          <a href="mailto:info@devstudio.com" class="contacts-list__link link"
+            ><svg class="contacts-list__icon contacts-list__icon--envelope" width="16" height="12">
+              <use href="./images/icons.svg#envelope"></use></svg
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="contacts-list__item">
+          <a href="tel:+380961111111" class="contacts-list__link link"
+            ><svg class="contacts-list__icon contacts-list__icon--phone" width="10" height="16">
+              <use href="./images/icons.svg#smartphone"></use></svg
+            >+38 096 111 11 11</a
+          >
+        </li>
+    </div>
+  </div>
+</header>
 
 
       <section class="section">
@@ -80,15 +82,15 @@
           </ul>
 
 
-
           <ul class="portfolio list">
             <li class="portfolio__item">
               <div class="portfolio__thumb">
                 <img
                   class=""
-                  src="./images/laptop_portfolio.jpg"
+                  srcset="./images/mobile/laptop_portfolio-mobile.jpg 1x, ./images/mobile/laptop_portfolio@2x-mobile.jpg 2x"
+                  src="./images/mobile/laptop_portfolio-mobile.jpg"
                   alt="Фото сотрудников"
-                  width="370"
+                  width=""
                 />
                 <div class="portfolio__overlay">
                   <p class="portfolio__description">
@@ -107,9 +109,10 @@
               <div class="portfolio__thumb">
                 <img
                   class=""
-                  src="./images/poster_star.jpg"
+                  srcset="./images/mobile/poster_star-mobile.jpg 1x, ./images/mobile/poster_star@2x-mobile.jpg 2x"
+                  src="./images/mobile/poster_star-mobile.jpg"
                   alt="2 басскетболиста"
-                  width="370"
+                  width=""
                 />
                 <div class="portfolio__overlay">
                   <p class="portfolio__description">
@@ -130,9 +133,10 @@
               <div class="portfolio__thumb">
                 <img
                   class=""
-                  src="./images/restaurant.jpg"
+                  srcset="./images/mobile/restaurant-mobile.jpg 1x, ./images/mobile/restaurant@2x-mobile.jpg 2x"
+                  src="./images/mobile/restaurant-mobile.jpg"
                   alt="Наименование ресторана"
-                  width="370"
+                  width=""
                 />
                 <div class="portfolio__overlay">
                   <p class="portfolio__description">
@@ -151,9 +155,10 @@
               <div class="portfolio__thumb">
                 <img
                   class=""
-                  src="./images/headphone.jpg"
+                  srcset="./images/mobile/headphone-mobile.jpg 1x, ./images/mobile/headphone@2x-mobile.jpg 2x"
+                  src="./images/mobile/headphone-mobile.jpg"
                   alt="Наушники"
-                  width="370"
+                  width=""
                 />
                 <div class="portfolio__overlay">
                   <p class="portfolio__description">
@@ -172,9 +177,10 @@
               <div class="portfolio__thumb">
                 <img
                   class=""
-                  src="./images/box.jpg"
+                  srcset="./images/mobile/box-mobile.jpg 1x, ./images/mobile/box@2x-mobile.jpg 2x"
+                  src="./images/mobile/box-mobile.jpg"
                   alt="Коробочки"
-                  width="370"
+                  width=""
                 />
                 <div class="portfolio__overlay">
                   <p class="portfolio__description">
@@ -193,9 +199,10 @@
               <div class="portfolio__thumb">
                 <img
                   class=""
-                  src="./images/desktop.jpg"
+                  srcset="./images/mobile/desktop-mobile.jpg 1x, ./images/mobile/desktop@2x-mobile.jpg 2x"
+                  src="./images/mobile/desktop-mobile.jpg"
                   alt="Экран монитора"
-                  width="370"
+                  width=""
                 />
                 <div class="portfolio__overlay">
                   <p class="portfolio__description">
@@ -214,9 +221,10 @@
               <div class="portfolio__thumb">
                 <img
                   class=""
-                  src="./images/book.jpg"
+                  srcset="./images/mobile/book-mobile.jpg 1x, ./images/mobile/book@2x-mobile.jpg 2x"
+                  src="./images/mobile/book-mobile.jpg"
                   alt="Разворот книги"
-                  width="370"
+                  width=""
                 />
                 <div class="portfolio__overlay">
                   <p class="portfolio__description">
@@ -235,9 +243,10 @@
               <div class="portfolio__thumb">
                 <img
                   class=""
-                  src="./images/label.jpg"
+                  srcset="./images/mobile/label-mobile.jpg 1x, ./images/mobile/label@2x-mobile.jpg 2x"
+                  src="./images/mobile/label-mobile.jpg"
                   alt="фирменная бирка"
-                  width="370"
+                  width=""
                 />
                 <div class="portfolio__overlay">
                   <p class="portfolio__description">
@@ -256,9 +265,10 @@
               <div class="portfolio__thumb">
                 <img
                   class=""
-                  src="./images/grow.jpg"
+                  srcset="./images/mobile/grow-mobile.jpg 1x, ./images/mobile/grow@2x-mobile.jpg 2x"
+                  src="./images/mobile/grow-mobile.jpg"
                   alt="ноутбук"
-                  width="370"
+                  width=""
                 />
                 <div class="portfolio__overlay">
                   <p class="portfolio__description">
@@ -351,5 +361,48 @@
         </div>
       </div>
     </footer>
+    
+        <!-- Мобильное меню -->
+
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button type="button" class="menu-toggle js-close-menu" aria-expanded="false" aria-controls="mobile-menu"><svg width="24" height="16"><use href="./images/icons.svg#icon-close" class="icon-close"></use></svg></button>
+        <div class="menu-content">
+            <div class="menu-content-top">
+                <nav>
+                    <ul class="mobile-nav list">
+                        <li class="mobile-nav__item"><a href="./index.html" class="mobile-nav__link link">Студия</a></li>
+                        <li class="mobile-nav__item"><a href="./portfolio.html" class="mobile-nav__link mobile-nav__link--current link">Портфолио</a></li>
+                        <li class="mobile-nav__item"><a href="" class="mobile-nav__link link">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+    
+            <div class="menu-content-bottom">
+                <ul class="contacts-list list">
+                    <li class="contacts-list__item">
+                        <a href="tel:+380961111111"
+                            class="contacts-list__link--big-size contacts__link--accent-color">+38 096 111 11
+                            11</a>
+                    </li>
+                    <li class="contacts-list__item">
+                        <a href="mailto:info@devstudio.com"
+                            class="contacts-list__link--medium-size">info@devstudio.com</a>
+                    </li>
+                </ul>
+                <ul class="mobile-social list">
+                    <li class="mobile-social__item"><a href="" class="mobile-social__link">Instagram</a></li>
+                    <li class="mobile-social__item"><a href="" class="mobile-social__link">Twitter</a></li>
+                    <li class="mobile-social__item"><a href="" class="mobile-social__link">Facebook</a></li>
+                    <li class="mobile-social__item"><a href="" class="mobile-social__link">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script
+    defer
+    src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
