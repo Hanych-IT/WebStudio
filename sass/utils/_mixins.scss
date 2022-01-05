@@ -6,8 +6,8 @@
 }
 
 @mixin sizens ($w, $h) {
-        width: $w;
-        height: $h;
+    width: $w;
+    height: $h;
 }
 
 @mixin border ($color) {

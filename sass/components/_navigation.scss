@@ -17,8 +17,8 @@
 
     @media screen and (min-width:$tablet) {
     &:not(:last-child) {
-        margin-right: 50px;
-        margin-bottom: 0;
+    margin-right: 50px;
+    margin-bottom: 0;
     }
     }
 }
@@ -37,21 +37,21 @@
 
     &:hover,
     &:focus {
-        color: $accent-color;
+    color: $accent-color;
     }
 
     &--current {
-        color: $accent-color;
+    color: $accent-color;
     }
 
     &--current::after {
-        content: "";
-        @include sizens (100%, 4px);
-        border-radius: 2px;
-        position: absolute;
-        background-color: $accent-color;
-        left: 0;
-        bottom: 0;
+    content: "";
+    @include sizens (100%, 4px);
+    border-radius: 2px;
+    position: absolute;
+    background-color: $accent-color;
+    left: 0;
+    bottom: 0;
     }
 
     @media screen and (max-width: 767px) {

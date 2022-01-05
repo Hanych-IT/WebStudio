@@ -1,8 +1,6 @@
-
 .subscribe-form {
-    
     @media screen and (min-width:$desktop) {
-        display: flex;
+    display: flex;
     }
 }
 
@@ -17,7 +15,6 @@
     border-radius: 4px;
     background-color: $secondary-shade-color;
     padding: 15px 16px;
-    margin-right: 12px;
     color: rgba($primary-color, 0.6);
 
     @media screen and (min-width:$tablet) {
@@ -26,7 +23,6 @@
 
     @media screen and (min-width:$desktop) {
     margin: 0 12px 0 0;
-    width: 358px;
+    width : 358px;
     }
-    
 }

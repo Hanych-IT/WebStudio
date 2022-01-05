@@ -5,8 +5,7 @@
     text-align: center;
 
     @media screen and (min-width:$desktop) {
-        @include font (36px, 1.16, 0.03em, bold);
-        margin-bottom: 50px;
-
+    @include font (36px, 1.16, 0.03em, bold);
+    margin-bottom: 50px;
     }
 }
