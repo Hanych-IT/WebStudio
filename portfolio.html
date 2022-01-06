@@ -52,11 +52,11 @@
             >+38 096 111 11 11</a
           >
         </li>
+      </ul>
     </div>
   </div>
 </header>
-
-
+<main>
       <section class="section">
         <div class="container">
           <h1 class="visually-hidden">наши работы</h1>
@@ -136,7 +136,7 @@
                   srcset="./images/mobile/restaurant-mobile.jpg 1x, ./images/mobile/restaurant@2x-mobile.jpg 2x"
                   src="./images/mobile/restaurant-mobile.jpg"
                   alt="Наименование ресторана"
-                  width=""
+                  width="450"
                 />
                 <div class="portfolio__overlay">
                   <p class="portfolio__description">
@@ -158,7 +158,7 @@
                   srcset="./images/mobile/headphone-mobile.jpg 1x, ./images/mobile/headphone@2x-mobile.jpg 2x"
                   src="./images/mobile/headphone-mobile.jpg"
                   alt="Наушники"
-                  width=""
+                  width="450"
                 />
                 <div class="portfolio__overlay">
                   <p class="portfolio__description">
@@ -180,7 +180,7 @@
                   srcset="./images/mobile/box-mobile.jpg 1x, ./images/mobile/box@2x-mobile.jpg 2x"
                   src="./images/mobile/box-mobile.jpg"
                   alt="Коробочки"
-                  width=""
+                  width="450"
                 />
                 <div class="portfolio__overlay">
                   <p class="portfolio__description">
@@ -202,7 +202,7 @@
                   srcset="./images/mobile/desktop-mobile.jpg 1x, ./images/mobile/desktop@2x-mobile.jpg 2x"
                   src="./images/mobile/desktop-mobile.jpg"
                   alt="Экран монитора"
-                  width=""
+                  width="450"
                 />
                 <div class="portfolio__overlay">
                   <p class="portfolio__description">
@@ -224,7 +224,7 @@
                   srcset="./images/mobile/book-mobile.jpg 1x, ./images/mobile/book@2x-mobile.jpg 2x"
                   src="./images/mobile/book-mobile.jpg"
                   alt="Разворот книги"
-                  width=""
+                  width="450"
                 />
                 <div class="portfolio__overlay">
                   <p class="portfolio__description">
@@ -246,7 +246,7 @@
                   srcset="./images/mobile/label-mobile.jpg 1x, ./images/mobile/label@2x-mobile.jpg 2x"
                   src="./images/mobile/label-mobile.jpg"
                   alt="фирменная бирка"
-                  width=""
+                  width="450"
                 />
                 <div class="portfolio__overlay">
                   <p class="portfolio__description">
@@ -268,7 +268,7 @@
                   srcset="./images/mobile/grow-mobile.jpg 1x, ./images/mobile/grow@2x-mobile.jpg 2x"
                   src="./images/mobile/grow-mobile.jpg"
                   alt="ноутбук"
-                  width=""
+                  width="450"
                 />
                 <div class="portfolio__overlay">
                   <p class="portfolio__description">
@@ -362,42 +362,47 @@
       </div>
     </footer>
     
-        <!-- Мобильное меню -->
+          <!-- Мобильное меню -->
 
-    <div class="menu-container js-menu-container" id="mobile-menu">
-      <button type="button" class="menu-toggle js-close-menu" aria-expanded="false" aria-controls="mobile-menu"><svg width="24" height="16"><use href="./images/icons.svg#icon-close" class="icon-close"></use></svg></button>
-        <div class="menu-content">
-            <div class="menu-nav">
-                <nav>
-                    <ul class="mobile-nav list">
-                        <li class="mobile-nav__item"><a href="./index.html" class="mobile-nav__link link">Студия</a></li>
-                        <li class="mobile-nav__item"><a href="./portfolio.html" class="mobile-nav__link mobile-nav__link--current link">Портфолио</a></li>
-                        <li class="mobile-nav__item"><a href="" class="mobile-nav__link link">Контакты</a></li>
-                    </ul>
-                </nav>
-            </div>
-    
-            <div class="menu-contacts">
-                <ul class="contacts-list list">
-                    <li class="contacts-list__item">
-                        <a href="tel:+380961111111"
-                            class="contacts-list__link--big-size contacts__link--accent-color">+38 096 111 11
-                            11</a>
-                    </li>
-                    <li class="contacts-list__item">
-                        <a href="mailto:info@devstudio.com"
-                            class="contacts-list__link--medium-size">info@devstudio.com</a>
-                    </li>
-                </ul>
-                <ul class="mobile-social list">
-                    <li class="mobile-social__item"><a href="" class="mobile-social__link">Instagram</a></li>
-                    <li class="mobile-social__item"><a href="" class="mobile-social__link">Twitter</a></li>
-                    <li class="mobile-social__item"><a href="" class="mobile-social__link">Facebook</a></li>
-                    <li class="mobile-social__item"><a href="" class="mobile-social__link">LinkedIn</a></li>
-                </ul>
-            </div>
-        </div>
+  <div class="menu-container js-menu-container" id="mobile-menu">
+    <button type="button" class="menu-toggle js-close-menu" aria-expanded="false" aria-controls="mobile-menu"><svg
+        width="24" height="16">
+        <use href="./images/icons.svg#icon-close" class="icon-close"></use>
+      </svg></button>
+    <div class="menu-content">
+      <div class="menu-nav">
+        <nav>
+          <ul class="mobile-nav list">
+            <li class="mobile-nav__item"><a href="./index.html"
+                class="mobile-nav__link mobile-nav__link--current link">Студия</a></li>
+            <li class="mobile-nav__item"><a href="./portfolio.html" class="mobile-nav__link link">Портфолио</a></li>
+            <li class="mobile-nav__item"><a href="" class="mobile-nav__link link">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="menu-contacts">
+        <ul class="contacts-list list">
+          <li class="contacts-list__item">
+            <a href="tel:+380961111111"
+              class="contacts-list__link contacts-list__link--big-size link contacts__link--accent-color">+38 096
+              111 11
+              11</a>
+          </li>
+          <li class="contacts-list__item">
+            <a href="mailto:info@devstudio.com"
+              class="contacts-list__link contacts-list__link--medium-size link">info@devstudio.com</a>
+          </li>
+        </ul>
+        <ul class="mobile-social list">
+          <li class="mobile-social__item"><a href="" class="mobile-social__link">Instagram</a></li>
+          <li class="mobile-social__item"><a href="" class="mobile-social__link">Twitter</a></li>
+          <li class="mobile-social__item"><a href="" class="mobile-social__link">Facebook</a></li>
+          <li class="mobile-social__item"><a href="" class="mobile-social__link">LinkedIn</a></li>
+        </ul>
+      </div>
     </div>
+  </div>
     <script
     defer
     src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
