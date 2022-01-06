@@ -606,19 +606,6 @@ img {
   padding-right: 10px;
 }
 
-@media screen and (max-width: 767px) {
-  .contacts {
-    margin-bottom: 64px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .contacts {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
-
 .main-title {
   font-size: 28px;
   line-height: 1.17;
@@ -700,6 +687,19 @@ img {
 @media screen and (max-width: 767px) {
   .nav-list__link::after {
     display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contacts {
+    margin-bottom: 64px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
