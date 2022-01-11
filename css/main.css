@@ -1734,12 +1734,12 @@ img {
 }
 @media screen and (min-width: 768px) {
   .portfolio__description {
-    padding: 20px 24px;
+    padding: 49px 24px;
   }
 }
 @media screen and (min-width: 1200px) {
   .portfolio__description {
-    padding: 37px 24px;
+    padding: 63px 24px;
   }
 }
 
